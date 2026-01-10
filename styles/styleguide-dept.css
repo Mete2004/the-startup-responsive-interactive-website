@@ -52,54 +52,78 @@
   --grey-neutral: hsla(0, 0%, 85%, 1);
   --grey-light: hsla(0, 0%, 91%, 1);
   --grey-lightest: hsla(0, 0%, 96%, 1);
+
+
+  --h1-size: clamp(2rem, 6vw, 4.5rem);      
+  --h1-line: clamp(2.5rem, 7vw, 5.375rem);    
+
+  --h2-size: clamp(1rem, 5vw, 3.75rem);        
+  --h2-line: clamp(2.5rem, 6vw, 4.5rem);      
+
+  --h3-size: clamp(1.75rem, 4vw, 3rem);       
+  --h3-line: clamp(2.25rem, 5vw, 3.5rem);     
+
+  --h4-size: clamp(1.25rem, 3.5vw, 2.25rem);    
+  --h4-line: clamp(2rem, 4vw, 2.6875rem);      
+
+  --h5-size: clamp(1rem, 3vw, 1.5rem);     
+  --h5-line: 1.75rem;                          
+
+  --h6-size: clamp(0.75rem, 2.5vw, 1.125rem);    
+  --h6-line: clamp(1.5rem, 3vw, 1.75rem);     
+
+  --p-size: clamp(0.75rem, 2.5vw, 1.125rem);      
+  --p-line: clamp(1.5rem, 4vw, 1.875rem);      
 }
 
 body {
   font-family: Lato, sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: var(--p-size);
   line-height: 30px;
   color: var(--black);
 }
 
 h1 {
   font-weight: 500;
-  font-size: 72px;
-  line-height: 86px;
+  font-size: var(--h1-size);
+  line-height: var(--h1-line);
+  margin: 0 0 25px 0;
+/*   top  right bottom left */
 }
 
 h2 {
   font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
+  font-size: var(--h2-size);
+  line-height: var(--h2-line);
 }
 
 h3 {
   font-weight: 500;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: var(--h3-size);
+  line-height: var(--h3-line);
 }
 
 h4 {
   font-weight: 500;
-  font-size: 36px;
-  line-height: 43px;
+  font-size: var(--h4-size);
+  line-height: var(--h4-line);
 }
 
 h5 {
   font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--h5-size);
+  line-height: var(--h5-line);
 }
 
 h6 {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: var(--h6-size);
+  line-height: var(--h6-line);
 }
 
 p {
   font-weight: 300;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: var(--p-size);
+  line-height: var(--p-line);
 }

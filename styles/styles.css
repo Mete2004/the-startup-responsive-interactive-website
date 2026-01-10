@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+header{
+    height: 4.75rem;
+    background-color: var(--purple);
+    padding: 0.5rem;
+}
+
+.logo-dept{
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+}
+
+.intro-wrapper{
+    background-color: var(--purple);
+    padding: 1rem;
+    h1{
+        color: var(--rose);
+    }
+    p{
+        color: var(--rose);
+    }
+}
+
+.upcoming_weather-wrapper{
+    padding: 1rem;
+}
+
+.weather-row{
+    display: flex;
+    gap: 2rem;
+}
+
+.content-wrapper{
+    padding: 1rem;
+}
+
+.activity-card img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--black);
+    padding: 15rem 10rem;
+    /* verticaal horizontaal */
+}
+
+.brand {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.dept {
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.reg {
+  font-size: 0.4em;
+}
+
+.fdnd {
+  position: relative;
+  top: -3px;
+  color: #4cff9a; /* groen uit design */
+  font-weight: 800;
+}
+
+.x {
+  color: #ffffff;
+  font-weight: 1000;
+}
