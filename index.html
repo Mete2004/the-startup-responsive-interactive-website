@@ -33,73 +33,126 @@
            But it's not just a weather app; it's an intuitive daily planner that syncs with the weather. 
            With a range of activities to choose from, it suggests the best options based on current and forecasted weather conditions. </p>
         <button class="toggle-intro">
-          Lees minder
+          Read less
         </button>
       </div>
     </section>
 
     <section class="upcoming_weather-section">
       <div class="upcoming_weather-wrapper">
-        <h2>De komende 5 dagen</h2>
+        <h2>Upcoming 5 days</h2>
 
         <div class="weather-list">
 
           <article class="weather-card">
-            <div class="date">Ma 8 jan</div>
+            <div class="date">Tuesday 25th Feb</div>
 
             <div class="weather-row">
-              <div class="weather-temp">🌧️ <span>12°C</span></div>
+              <div class="weather-icon">🌧️</div>
+              <div class="weather-temp">19° / 22°</div>
               <div class="weather-drop">💧</div>
-              <div class="weather-mm">4 mm</div>
+              <div class="weather-mm">0.5 mm</div>
               <div class="weather-wind">
                 <span>N / W</span>
                 <span class="triangle"></span>
               </div>
             </div>
+
+            <div class="date">Tuesday 25th Feb</div>
+
+            <div class="weather-row">
+              <div class="weather-icon">🌧️</div>
+              <div class="weather-temp">19° / 22°</div>
+              <div class="weather-drop">💧</div>
+              <div class="weather-mm">0.5 mm</div>
+              <div class="weather-wind">
+                <span>N / W</span>
+                <span class="triangle"></span>
+              </div>
+            </div>
+
+            <div class="date">Tuesday 25th Feb</div>
+
+            <div class="weather-row">
+              <div class="weather-icon">🌧️</div>
+              <div class="weather-temp">19° / 22°</div>
+              <div class="weather-drop">💧</div>
+              <div class="weather-mm">0.5 mm</div>
+              <div class="weather-wind">
+                <span>N / W</span>
+                <span class="triangle"></span>
+              </div>
+            </div>
+
+            <div class="date">Tuesday 25th Feb</div>
+
+            <div class="weather-row">
+              <div class="weather-icon">🌧️</div>
+              <div class="weather-temp">19° / 22°</div>
+              <div class="weather-drop">💧</div>
+              <div class="weather-mm">0.5 mm</div>
+              <div class="weather-wind">
+                <span>N / W</span>
+                <span class="triangle"></span>
+              </div>
+            </div>
+
+            <div class="date">Tuesday 25th Feb</div>
+
+            <div class="weather-row">
+              <div class="weather-icon">🌧️</div>
+              <div class="weather-temp">19° / 22°</div>
+              <div class="weather-drop">💧</div>
+              <div class="weather-mm">0.5 mm</div>
+              <div class="weather-wind">
+                <span>N / W</span>
+                <span class="triangle"></span>
+              </div>
+            </div>
+
           </article>
 
         </div>
         <h3>Want to get a daily forecast?</h3>
         <div class="mail-div">
-          <input type="email" class="input-mail" placeholder="E-mailadres">
-          <button class="button-submit">
-
-          </button>
+          <input type="email" class="input-mail" placeholder="Enter your e-mailaddress">
+          <button id="btn-submit" class="button-submit">
+            <span class="btn-text">Submit</span>
+            <span class="checkmark">Submitted</span>
+          </button> 
         </div>
-
-
       </div>
     </section>
 
     <section class="content-section">
       <div class="content-wrapper"> 
         <div class="weather-info-bar">
-          <div class="temperature">12°C</div>
+          <div class="temperature">24°</div>
 
           <div class="temperature-title">
-            <strong>Zacht winterweer</strong>
+            <strong>It's currently around ~24° in the Netherlands</strong>
           </div>
 
           <div class="temperature-text">
-            Vandaag ligt de temperatuur rond de 12 graden met lichte regen.
+            Very sunny and very unsual for in tje Netherlands. But we should enjoy it as long as it lasts.
           </div>
         </div>
 
         <div class="activities">
 
-          <h3>Some thing you could do:</h3>
+          <h4>Some things you could do:</h4>
 
-          <article class="activity-card">
+          <article class="activity-card popover-trigger">
             <img src="assets/swimming.jpg" alt="pic-swimming">
-            <h4>Swimming</h4>
+            <h5>Swimming</h5>
             <p>
-              Zwemmen is een goede activiteit bij dit weer, vooral in een binnenzwembad.
+              In recreation and sports, the propulsion of the body through water by combined arm and leg motions.
             </p>
           </article>
 
           <article class="activity-card">
             <img src="assets/cycling.jpg" alt="pic-cycling">
-            <h4>Walking</h4>
+            <h5>Cycling</h5>
             <p>
               Een korte wandeling is prima te doen, neem wel een regenjas mee.
             </p>
@@ -107,25 +160,25 @@
 
           <article class="activity-card">
             <img src="assets/beach.jpg" alt="pic-beach">
-            <h4>Gym</h4>
+            <h5>Go to the beach</h5>
             <p>
               Perfect weer om binnen te sporten en actief bezig te blijven.
             </p>
           </article>
 
-          <h3>Some things you should not do:</h3>
+          <h4>Some things you should not do:</h4>
 
           <article class="activity-card">
             <img src="assets/iceskate.jpg" alt="pic-iceskate">
-            <h4>Swimming</h4>
+            <h5>Ice skating</h5>
             <p>
               Zwemmen is een goede activiteit bij dit weer, vooral in een binnenzwembad.
             </p>
           </article>
 
           <article class="activity-card">
-            <img src="assets/walking.jpg" alt="pic-walking">
-            <h4>Walking</h4>
+            <div class="div-img"><img src="assets/walking.jpg" alt="pic-walking"></div>
+            <h5>Walking</h5>
             <p>
               Een korte wandeling is prima te doen, neem wel een regenjas mee.
             </p>
@@ -133,7 +186,7 @@
 
           <article class="activity-card">
             <img src="assets/darts.jpg" alt="pic-darts">
-            <h4>Gym</h4>
+            <h5>Darts</h5>
             <p>
               Perfect weer om binnen te sporten en actief bezig te blijven.
             </p>
@@ -153,5 +206,26 @@
     <span class="brand fdnd">fdnd</span>
   </footer>
 
+
+  <div class="overlay" id="overlay"></div>
+
+  <div class="popover" id="popover">
+    <button class="close" id="closePopover">✕</button>
+    <div class="popover-img"><img src="assets/swimming.jpg" alt="pic-swimming"></div>
+    <div class="popover-content"> 
+      <h1>Swimming</h1>
+      <div class="advice-text"><span><strong>You can do this event</strong></span></div>
+      <p><strong>You can do this activity between 22° and 44° in Amsterdam</strong></p>
+      <p>
+        A sustainable and exhilarating way to explore the world on two wheels. It’s a great way to exercise.A sustainable and exhilarating way to explore the world on two wheels. It’s a great way to exercise.A sustainable and exhilarating way to explore the world on two wheels. It’s a great way to exercise.
+      </p>
+      <button class="button-view-event">View event</button>
+    </div>
+    
+  </div>
+
 </body>
+
+<script src="main.js" defer></script>
+
 </html>
