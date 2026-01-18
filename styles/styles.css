@@ -57,14 +57,17 @@ main{
      @media (min-width: 768px) {
       padding: 1rem 2rem 0 5rem;
     }
+    @media (min-width: 968px) {
+      padding: 1rem 3rem 3rem 9rem;
+    }
 }
 
-.toggle-intro{
+/* .toggle-intro{
   display: block;
   @media (min-width: 768px) {
     display: none;
   }
-}
+} */
 
 .upcoming_weather-section{
   background-color: #F2F2F2;
@@ -88,15 +91,30 @@ main{
       margin-top: 0;
     }
     }
+    @media (min-width: 968px) {
+      padding: 1rem 3rem 1rem 9rem;
+    }
 }
 
 .date{
   font-weight: 700;
 }
 
+.weather-list{
+   @media (min-width: 968px) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    }
+}
+
 .weather-card{
   display: flex;
   flex-direction: column;
+   @media (min-width: 968px) {
+     flex-direction: row;
+     gap: 4rem;
+    }
 }
 
 .weather-row{
@@ -142,6 +160,9 @@ main{
   width: 100%;
   padding: 1.2rem;
   border-radius: 2rem;
+  @media (min-width: 968px) {
+      width: 95%;
+    }
 }
 
 .btn-text{
@@ -184,18 +205,41 @@ main{
 
 .content-wrapper{
     padding: 1rem;
+    @media (min-width: 968px) {
+      padding: 1rem 10rem 0 7rem;
+    }
 }
 
 .weather-info-bar{
   padding: 1rem;
   border-radius: 0.5rem;
   background: var(--rose);
+  @media (min-width: 968px) {
+      display: flex;
+      gap: 1.5rem;
+    }
 }
+
+.temperature-content{
+  @media (min-width: 968px) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+}
+
+.temperature-title{
+  font-weight: 400;
+}
+
 
 .temperature{
   font-size: 6rem;
   font-weight: 400;
   line-height: 1.6;
+  @media (min-width: 968px) {
+    font-size: 5.5rem;
+  }
 }
 
 .activities{
@@ -218,16 +262,30 @@ main{
   h5{
     margin: 20px 0 5px 0;
   }
+   @media (min-width: 968px) {
+    flex-direction: row;
+    gap: 1rem;
+    h5{
+      margin: 0 0 5px 0;
+    }
+  }
 }
 
 .div-img{
   height: 9rem;
+  @media (min-width: 968px) {
+   height: 8rem;
+   width: 60%;
+  }
 }
 
 .activity-card img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    @media (min-width: 968px) {
+   
+  }
 }
 
 .popover-trigger {
