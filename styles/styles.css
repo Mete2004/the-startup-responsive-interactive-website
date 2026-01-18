@@ -14,15 +14,6 @@ header{
     background-color: var(--purple);
     padding: 0;
     @media (min-width: 768px) {
-      /* display: grid;
-      grid-template-columns: 1fr 1fr; */
-       /* background: linear-gradient(
-        to right,
-        var(--purple) 50%,
-        #F2F2F2 50%
-    ); */
-    grid-column: 1 / 2;
-    
     } 
 }
 
@@ -51,12 +42,12 @@ main{
    @media (min-width: 768px) {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    background-color: var(--purple);
    }
 }
 
 .intro-wrapper{
-    background-color: var(--purple);
-    padding: 1rem;
+    padding: 1rem 2rem 0 8rem;
     h1{
         color: var(--rose);
     }
@@ -78,6 +69,9 @@ main{
 
 .upcoming_weather-wrapper{
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .date{
@@ -92,6 +86,28 @@ main{
 .weather-row{
     display: flex;
     gap: 1.4rem;
+    font-weight: 400;
+}
+
+.weather-wind{
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.arrow{
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 8px solid #000; /* kleur pijltje */
+    transform: rotate(100deg);
+}
+
+.mail-div{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .input-mail{
@@ -151,6 +167,12 @@ main{
     padding: 1rem;
 }
 
+.weather-info-bar{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: var(--rose);
+}
+
 .temperature{
   font-size: 6rem;
   font-weight: 400;
@@ -167,6 +189,7 @@ main{
 }
 
 .activity-card{
+  border-bottom: 1px solid #e5e5e5;
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
@@ -176,6 +199,16 @@ main{
   h5{
     margin: 20px 0 5px 0;
   }
+}
+
+.div-img{
+  height: 9rem;
+}
+
+.activity-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .popover-trigger {
@@ -202,7 +235,7 @@ main{
   left: 50%;
   transform: translate(-50%, -50%) scale(0.8);
   width: 101%;
-  height: 90vh;
+  height: 100vh;
   max-width: 500px;
   background: #fff;
   border-radius: 12px;
@@ -239,7 +272,7 @@ main{
 .popover-content{
   display: flex;
   flex-direction: column;
-  gap: 1.8rem;
+  gap: 1.3rem;
   padding: 1rem;
   p{
     margin: 0;
@@ -256,22 +289,13 @@ main{
 }
 
 .button-view-event{
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 0.8rem 1rem 0.8rem 1rem;
   width: 30%;
   background-color: var(--black);
   color: #F0EBFE;
   border-radius: 999px;
 }
 
-.div-img{
-  height: 8rem;
-}
-
-.activity-card img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 footer{
     display: flex;
