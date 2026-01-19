@@ -9,7 +9,7 @@ sendBtn.addEventListener('click', () => {
 setTimeout(() => {
   sendBtn.classList.remove('sent');
   sendBtn.disabled = false;
-}, 2000); 
+}, 4300); 
 });
 
 
