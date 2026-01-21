@@ -1,14 +1,8 @@
-Ontwerp en maak een responsive website voor een startup.
-
-De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com/fdnd-task/the-startup-responsive-interactieve-website/blob/main/docs/INSTRUCTIONS.md)
+[INSTRUCTIONS.md](https://github.com/fdnd-task/the-startup-responsive-interactieve-website/blob/main/docs/INSTRUCTIONS.md)
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 ## DEPT Weather Planner
-
-Voor dit project is een nieuwe website ontwikkeld voor **DEPT** met als doel gebruikers te helpen bij het plannen van activiteiten op basis van het weer. De uitdaging was om een moderne, overzichtelijke en gebruiksvriendelijke website te bouwen die aansluit bij de huisstijl van DEPT en goed werkt op alle apparaten.
-
-De oplossing is een responsive weather planner waarin actuele (gesimuleerde) weersinformatie wordt gecombineerd met advies over welke activiteiten op dat moment wel of beter niet geschikt zijn. Het ontwerp is uitgewerkt in Figma en vervolgens omgezet naar een werkend prototype met HTML, CSS en JavaScript, met aandacht voor toegankelijkheid, structuur en onderhoudbare code.
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
