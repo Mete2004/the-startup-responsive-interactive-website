@@ -176,6 +176,11 @@ input:focus{
   outline-offset: 2px;
 } 
 
+.button-submit:hover{
+ background: var(--purple);
+  
+} 
+
 .button-submit{
   position: relative;
   background-color: var(--black);
@@ -321,6 +326,10 @@ input:focus{
       margin: 0 0 5px 0;
     }
   }
+}
+
+.activity-card:hover{
+  background: var(--grey-lightest);
 }
 
 .div-img{
