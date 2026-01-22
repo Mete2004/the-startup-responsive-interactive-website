@@ -62,6 +62,12 @@ main{
     }
 }
 
+.toggle-intro{
+  background: none;
+  border: none;
+  padding-bottom: 1.5rem;
+}
+
 .toggle-intro:focus{
     outline: 2px solid var(--grey-lightest);
     outline-offset: 2px;
